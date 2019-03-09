@@ -1,0 +1,20 @@
+{
+  "name": "shops-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "elnady",
+  "license": "ISC",
+  "dependencies": {
+    "acl": "^0.4.11",
+    "body-parser": "^1.18.3",
+    "config": "^3.0.1",
+    "express": "^4.16.4",
+    "joi": "^14.3.1",
+    "mongoose": "^5.4.13"
+  }
+}
