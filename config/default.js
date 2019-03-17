@@ -9,12 +9,11 @@ module.exports = {
       roles: {
          SUPER_ADMIN: {
             resources: [
-               "/signup",
+               "/",
                "/:id/approve",
-               "/:id/assign-shop",
-               "/:id/roles"
+               "/:id"
             ],
-            permissions: ["get, post, put, delete"]
+            permissions: ["get", "post", "put", "patch", "delete"]
          }
       }
    }
